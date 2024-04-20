@@ -86,7 +86,7 @@ const index = () => {
                     My education has been a journey of self-discovery and growth. My educational details are as follows.
                 </Desc>
                 <TimelineSection>
-                    <Timeline>
+                    <fTimeline>
                         {education.map((education,index) => (
                             <TimelineItem >
                                 <TimelineContent sx={{ py: '12px', px: 2 }}>
@@ -98,7 +98,7 @@ const index = () => {
                                 </TimelineSeparator>
                             </TimelineItem>
                         ))}
-                    </Timeline>
+                    </fTimeline>
 
                 </TimelineSection>
             </Wrapper>
